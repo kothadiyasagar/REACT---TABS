@@ -1,0 +1,22 @@
+.container {
+    width: fit-content;
+    border-radius: 55px 5px ;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    color: yellowgreen;
+    background-color: crimson;
+}

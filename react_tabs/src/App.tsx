@@ -1,21 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import {Tabb} from './Tab'
+import "./App.css";
+import { TabsList } from "./components/TabList";
 
 function App() {
-  const data = [
-    {button:"One",
-     title:"one!"
-    },
-    {button:"Two",
-    title:"two!"
-   },
-  ]
   return (
-    <div className="App">
-       <Tabb data={data}/>
-    </div>
+    <>
+      <div className="App">
+        <TabsList />
+      </div>
+    </>
   );
 }
 
